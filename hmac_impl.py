@@ -85,7 +85,7 @@ if __name__ == '__main__':
     #representasi dari penerima
     #pesan dan kunci dari penerima
     key_rec = 'cobalagi'
-    msg_rec = msg
+    msg_rec = 'ini adalah hmac untuk mata kuliah KIJ'
 
     #panggil kelas HMAC dengan masukan kunci, pesan, dan fungsi hash
     hmac_2 = HMAC(key_rec, msg_rec, sha1)
